@@ -5,13 +5,13 @@ module.exports = {
   mode: 'development',
   devServer: {
     hot: true,
-    open: true
+    open: true,
   },
   devtool: 'cheap-module-source-map',
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.name': JSON.stringify('Edward')
+      'process.env.name': JSON.stringify('Edward'),
     }),
-    new ReactRefreshWebpackPlugin()
-  ]
+    new ReactRefreshWebpackPlugin(),
+  ],
 }
