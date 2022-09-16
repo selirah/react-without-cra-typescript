@@ -5,7 +5,6 @@ import LOGO from './logo.svg'
 import ClickCounter from './ClickCounter'
 
 const App = () => {
-  const name = 'Edward'
   return (
     <div>
       <h1>
